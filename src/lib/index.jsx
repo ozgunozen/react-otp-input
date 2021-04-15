@@ -129,7 +129,6 @@ class SingleOtpInput extends PureComponent<*> {
             hasErrored && errorStyle
           )}
           type={this.getType()}
-          maxLength="1"
           ref={input => {
             this.input = input;
           }}
